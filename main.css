@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #161616;
+    overflow: hidden;
+    cursor: url("./img/mouse.png"), auto !important;
+}
+
+.header {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Red Rose', cursive;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+    width: 200%;
+    height: 200vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 0;
+}
+
+.block {
+    width: 400px;
+    height: 500px;
+    background: rgb(96, 96, 96);
+    margin: 1rem;
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: 0.8s;
+}
+
+.block:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.block-1 {
+    background: url("./img/one.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-2 {
+    background: url("./img/two.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-3 {
+    background: url("./img/three.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-4 {
+    background: url("./img/four.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-5 {
+    background: url("./img/five.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-6 {
+    background: url("./img/six.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-7 {
+    background: url("./img/seven.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
+.block-8 {
+    background: url("./img/eight.jpg") no-repeat 45% 50%;
+    background-size: cover;
+}
